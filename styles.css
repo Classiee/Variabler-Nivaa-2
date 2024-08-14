@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+}
+
+#containers {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 200px
+    border: none;
+}
+
+.colorButton {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    transition: border 0.3s ease;
+    border-radius: 5px;
+}
+
+#greenButton {
+    background-color: green;
+    color: white
+}
+
+#greenButton:hover {
+    border-color: black;
+    background-color: #333;
+}
+
+#redButton {
+    background-color: red;
+    color: white
+}
+
+#redButton:hover {
+    border-color: black;
+    background-color: #333;
+}
+
+#blueButton {
+    background-color: blue;
+    color: white
+}
+
+#blueButton:hover {
+    border-color: black;
+    background-color: #333;
+}
+
+.applyButton {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.applyButton:hover {
+    background-color: #333;
+}
+
+#selected {
+    border: 2px solid black;
+}
